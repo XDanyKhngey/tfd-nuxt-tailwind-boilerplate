@@ -343,9 +343,9 @@
 </template>
 <script>
 import { mapActions, mapGetters } from "vuex";
-import NewUser from "../components/Forms/new-user";
-import ToolBarLoader from "../components/Loadings/tool-bar-loader";
-import UserCardsLoader from "../components/Loadings/user-cards-loader";
+import NewUser from "../components/forms/new-user.vue";
+import ToolBarLoader from "../components/loadings/tool-bar-loader";
+import UserCardsLoader from "../components/loadings/user-cards-loader";
 import { createHelpers } from "vuex-map-fields";
 const { mapMultiRowFields } = createHelpers({
   getterType: "users/getField",
