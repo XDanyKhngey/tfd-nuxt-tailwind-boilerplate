@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import LoginModal from "~/components/Forms/login-modal";
+import LoginModal from "~/components/forms/login-modal";
 import Registration from "~/components/forms/registration";
 export default {
   components: { Registration, LoginModal },
