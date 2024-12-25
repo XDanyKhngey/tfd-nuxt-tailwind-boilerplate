@@ -16,3 +16,4 @@ export default {
   components: { SideBar, NavBarHome },
 };
 </script>
+ 
